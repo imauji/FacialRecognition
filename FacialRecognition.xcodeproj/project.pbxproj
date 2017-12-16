@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0341BFD91FE2F00F0097D082 /* IMG_1768.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0341BFD81FE2F00F0097D082 /* IMG_1768.jpg */; };
+		0341BFDD1FE2F2B70097D082 /* IMG_0424.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0341BFDC1FE2F2B70097D082 /* IMG_0424.JPG */; };
+		0341BFDF1FE2F3070097D082 /* FH000012.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0341BFDE1FE2F3070097D082 /* FH000012.JPG */; };
+		0341BFE71FE2F6A40097D082 /* megane100.png in Resources */ = {isa = PBXBuildFile; fileRef = 0341BFE61FE2F6A40097D082 /* megane100.png */; };
 		F3D2CE4D19616926002819F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D2CE4C19616926002819F4 /* AppDelegate.swift */; };
 		F3D2CE4F19616926002819F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D2CE4E19616926002819F4 /* ViewController.swift */; };
 		F3D2CE5219616926002819F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3D2CE5019616926002819F4 /* Main.storyboard */; };
@@ -30,6 +34,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0341BFD81FE2F00F0097D082 /* IMG_1768.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_1768.jpg; path = ../../../Desktop/IMG_1768.jpg; sourceTree = "<group>"; };
+		0341BFDC1FE2F2B70097D082 /* IMG_0424.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0424.JPG; sourceTree = "<group>"; };
+		0341BFDE1FE2F3070097D082 /* FH000012.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FH000012.JPG; sourceTree = "<group>"; };
+		0341BFE61FE2F6A40097D082 /* megane100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = megane100.png; sourceTree = "<group>"; };
 		F3D2CE4719616926002819F4 /* FacialRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacialRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3D2CE4B19616926002819F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3D2CE4C19616926002819F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -89,9 +97,13 @@
 			children = (
 				F3D2CE4C19616926002819F4 /* AppDelegate.swift */,
 				F3D2CE7119623CB0002819F4 /* hige_100.png */,
+				0341BFE61FE2F6A40097D082 /* megane100.png */,
 				F3D2CE73196242A7002819F4 /* test_001.jpg */,
 				F3D2CE75196242B4002819F4 /* test_002.jpg */,
+				0341BFDC1FE2F2B70097D082 /* IMG_0424.JPG */,
+				0341BFDE1FE2F3070097D082 /* FH000012.JPG */,
 				F3D2CE77196242BF002819F4 /* test_003.jpg */,
+				0341BFD81FE2F00F0097D082 /* IMG_1768.jpg */,
 				F3D2CE4E19616926002819F4 /* ViewController.swift */,
 				F3D2CE5019616926002819F4 /* Main.storyboard */,
 				F3D2CE5319616926002819F4 /* Images.xcassets */,
@@ -209,10 +221,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0341BFDF1FE2F3070097D082 /* FH000012.JPG in Resources */,
 				F3D2CE5219616926002819F4 /* Main.storyboard in Resources */,
 				F3D2CE74196242A7002819F4 /* test_001.jpg in Resources */,
+				0341BFDD1FE2F2B70097D082 /* IMG_0424.JPG in Resources */,
 				F3D2CE76196242B4002819F4 /* test_002.jpg in Resources */,
+				0341BFE71FE2F6A40097D082 /* megane100.png in Resources */,
 				F3D2CE7219623CB0002819F4 /* hige_100.png in Resources */,
+				0341BFD91FE2F00F0097D082 /* IMG_1768.jpg in Resources */,
 				F3D2CE5419616926002819F4 /* Images.xcassets in Resources */,
 				F3D2CE78196242BF002819F4 /* test_003.jpg in Resources */,
 			);

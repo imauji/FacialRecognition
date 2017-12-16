@@ -48,13 +48,16 @@ class ViewController: UIViewController {
             }
             
             //hige
-            let higeImg      = UIImage(named:"hige_100.png")
+            let higeImg      = UIImage(named:"megane100.png")
             let mouseRectY = imageReceivedImageView.image!.size.height - (feature as! CIFaceFeature).mouthPosition.y
             //ヒゲの横幅は顔の4/5程度
             let higeWidth  = faceRect.size.width * 4/5
             let higeHeight = higeWidth * 0.3 // 元画像が100:30なのでWidthの30%が縦幅
-            let higeRect  = CGRect(x:(feature as! CIFaceFeature).mouthPosition.x - higeWidth/2,y:mouseRectY - higeHeight/2,width:higeWidth,height:higeHeight)
+            let higeRect  = CGRect(x:(feature as! CIFaceFeature).mouthPosition.x - higeWidth/2,y:mouseRectY - higeHeight/2 - faceRect.size.width * 2/5,width:higeWidth,height:higeHeight)
+            //let higeRect  = CGRect(x: 100, y: 100, width: 100, height: 100)
             drawCtxt?.draw(higeImg!.cgImage!, in: higeRect)
+            
+            print(higeHeight)
             
             //leftEye
             if(feature as! CIFaceFeature).hasLeftEyePosition != false{
